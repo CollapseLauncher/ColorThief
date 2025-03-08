@@ -12,7 +12,7 @@
         <Description>Color Thief for .NET</Description>
         <Company>Collapse Launcher Team</Company>
         <Authors>$(Company). neon-nyan, Cry0, bagusnl, shatyuka, gablm.</Authors>
-        <Copyright>Copyright 2022-2024 $(Company), Initially made by KSemenenko</Copyright>
+        <Copyright>Copyright 2022-2025 $(Company), Initially made by KSemenenko</Copyright>
         <IsAotCompatible>true</IsAotCompatible>
 	</PropertyGroup>
 
