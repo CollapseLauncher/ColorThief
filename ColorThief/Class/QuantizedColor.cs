@@ -3,7 +3,6 @@ using System.Drawing;
 // ReSharper disable UnusedMember.Global
 // ReSharper disable InconsistentNaming
 // ReSharper disable CheckNamespace
-#pragma warning disable CA2211
 
 namespace ColorThiefDotNet
 {
