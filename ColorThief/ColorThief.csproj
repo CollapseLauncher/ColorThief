@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-	<PropertyGroup>
-		<TargetFrameworks>net10.0</TargetFrameworks>
-		<Platforms>x64</Platforms>
-		<Configurations>Debug;Release</Configurations>
-		<DebugType>portable</DebugType>
-		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PropertyGroup>
+        <TargetFrameworks>net10.0</TargetFrameworks>
+        <Platforms>x64</Platforms>
+        <Configurations>Debug;Release</Configurations>
+        <DebugType>portable</DebugType>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <!-- Assembly Info Properties -->
         <AssemblyName>ColorThief</AssemblyName>
         <ProductName>ColorThief</ProductName>
@@ -14,18 +14,18 @@
         <Authors>$(Company). neon-nyan, Cry0, bagusnl, shatyuka, gablm.</Authors>
         <Copyright>Copyright 2022-2025 $(Company), Initially made by KSemenenko</Copyright>
         <IsAotCompatible>true</IsAotCompatible>
-	</PropertyGroup>
+    </PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-		<Optimize>True</Optimize>
-		<DebugType>portable</DebugType>
-	</PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+        <Optimize>True</Optimize>
+        <DebugType>portable</DebugType>
+    </PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-		<Optimize>False</Optimize>
-	</PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+        <Optimize>False</Optimize>
+    </PropertyGroup>
 
-	<ItemGroup>
-		<PackageReference Include="System.Drawing.Common" Version="10.0.0" />
-	</ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="System.Drawing.Common" Version="10.0.0" />
+    </ItemGroup>
 </Project>
