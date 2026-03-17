@@ -4,23 +4,23 @@
     "net10.0": {
       "Microsoft.NET.ILLink.Tasks": {
         "type": "Direct",
-        "requested": "[10.0.3, )",
-        "resolved": "10.0.3",
-        "contentHash": "0B6nZyCHWXnvmlB559oduOspVdNOnpNXPjhpWVMovLPAsDVG7A4jJR9rzECf67JUzxP8/ee/wA8clwIzJcWNFA=="
+        "requested": "[10.0.4, )",
+        "resolved": "10.0.4",
+        "contentHash": "CCx8ojW3mOL150/LnP0DK7qpMrJEt6xxNCmJFKoX89v1h0FwpsEHqennowGPYDxp6zIkIO4f9PxynjOeLF+1zw=="
       },
       "System.Drawing.Common": {
         "type": "Direct",
-        "requested": "[10.0.3, )",
-        "resolved": "10.0.3",
-        "contentHash": "bJlT89G7EqMpiLCvIPmb7BHpcSxjVeFsahRyQk3/mrUt5YgHKiFcEv88db97gKcpRn5opxfBwI0ohUmJlxuGJg==",
+        "requested": "[10.0.5, )",
+        "resolved": "10.0.5",
+        "contentHash": "FYgPPbii/9Prh7RuY1gaxSyik7Ysw594K0uCHggDxHDgl7mfk8c4UlwluKjQoMquVGLce7Jld4DjjsnuYK3m7g==",
         "dependencies": {
-          "Microsoft.Win32.SystemEvents": "10.0.3"
+          "Microsoft.Win32.SystemEvents": "10.0.5"
         }
       },
       "Microsoft.Win32.SystemEvents": {
         "type": "Transitive",
-        "resolved": "10.0.3",
-        "contentHash": "gYpwz5Gl0rs9pEFHBKctLbSi7SUGR4L1uRjXkU488nizWd2hvo2JP2+ATUsv0th7v6LDiXfdlUsnTbvC2MauFA=="
+        "resolved": "10.0.5",
+        "contentHash": "a7rC0Qb5JGiA4f4ooqQjsx17LgYkb9feOcMNGyBXGqYmqC4ZoLbrV98zn7Kr5Z39BIU10Bti80Jwm/QAw+45VA=="
       }
     }
   }
